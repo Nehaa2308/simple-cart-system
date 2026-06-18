@@ -68,37 +68,39 @@ SimpleCartProject/
 
 ---
 
-## Setup and Run Instructions
+## Setup and Run Instruction
 
-Prerequisites
+### Downloading the Project
 
-Before running the application, ensure that the following software is installed:
+#### Option 1: Download ZIP
 
-A modern web browser (Google Chrome, Microsoft Edge, Mozilla Firefox, etc.)
-Visual Studio Code (recommended for viewing and editing the source code)
+1. Open the GitHub repository.
+2. Click on **Code**.
+3. Select **Download ZIP**.
+4. Extract the ZIP file to a desired location on your system.
 
-No additional frameworks, libraries, databases, or package installations are required.
-
-Downloading the Project
-Option 1: Download ZIP
-Open the GitHub repository.
-Click on Code.
-Select Download ZIP.
-Extract the ZIP file to a desired location on your system.
-Option 2: Clone Repository
+#### Option 2: Clone Repository
 
 If Git is installed:
 
+```bash
 git clone https://github.com/Nehaa2308/simple-cart-system.git
+```
 
 Navigate to the project folder after cloning.
 
-Opening the Project
-Launch Visual Studio Code.
-Click File → Open Folder.
-Select the project folder.
-Verify that all project files and the images folder are present.
-Project Structure
+---
+
+### Opening the Project
+
+1. Launch Visual Studio Code.
+2. Click **File → Open Folder**.
+3. Select the project folder.
+4. Verify that all project files and the images folder are present.
+
+#### Project Structure
+
+```text
 simple-cart-system/
 
 ├── home.html
@@ -108,37 +110,42 @@ simple-cart-system/
 ├── cart.js
 ├── README.md
 └── images/
-Running the Application
-Method 1: Direct Browser Execution
-Open the project folder.
-Double-click home.html.
+```
 
-OR
+---
 
-Right-click home.html.
-Select Open With.
-Choose your preferred web browser.
+### Running the Application
+
+#### Method 1: Direct Browser Execution
+
+1. Right-click **home.html**.
+2. Select **Open With**.
+3. Choose your preferred web browser.
 
 The application homepage will open automatically.
 
-Method 2: Using VS Code Live Server (Recommended)
-Install the Live Server extension in Visual Studio Code.
-Open the project folder.
-Right-click home.html.
-Select Open with Live Server.
+#### Method 2: Using VS Code Live Server (Recommended)
+
+1. Install the **Live Server** extension in Visual Studio Code.
+2. Open the project folder.
+3. Right-click **home.html**.
+4. Select **Open with Live Server**.
 
 The application will launch in your default browser.
 
-Using the Application
-Browse available grocery products.
-Use the search bar to search for products.
-Filter products using category filters.
-Click Add to Cart to add items.
-Use the + and − buttons to modify quantities.
-Click the cart icon to view selected items.
-Review the order summary.
-Receive a 10% discount on orders above ₹100.
-Click Checkout to complete the simulated order process.
+---
+
+### Using the Application
+
+1. Browse available grocery products.
+2. Use the search bar to search for products.
+3. Filter products using category filters.
+4. Click **Add to Cart** to add items.
+5. Use the **+** and **−** buttons to modify quantities.
+6. Click the cart icon to view selected items.
+7. Review the order summary.
+8. Receive a **10% discount** on orders above **₹100**.
+9. Click **Checkout** to complete the simulated order process.
 
 ---
 
