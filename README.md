@@ -59,7 +59,7 @@ SimpleCartProject/
 
 ├── home.html
 ├── cart.html
-├── style.css
+├── home.css
 ├── home.js
 ├── cart.js
 ├── README.md
