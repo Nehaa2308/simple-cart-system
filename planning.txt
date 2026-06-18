@@ -1,0 +1,13 @@
+Features:
+- Add Product
+- Delete Product
+- Search Product
+- Cart Count
+- Discount
+- Clear Cart
+- Validation
+
+Assumptions:
+- Discount is percentage based
+- Price > 0
+- Quantity > 0

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Cart System</title>
+
+    <link rel="stylesheet" href="home.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            Simple Cart
+        </div>
+
+        <div class="search-box">
+            <input type="text"
+            id="searchInput"
+            placeholder="Search Products"
+            >
+        </div>
+
+        <div class="cart-info" onclick="goToCart()">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </nav>
+
+    <section class="hero">
+
+    <div class="hero-text">
+        <h1>Smart Shopping Made Easy</h1>
+
+        <p>
+            Add products to your cart, apply discounts,
+            and calculate totals instantly.
+        </p>
+
+        <div class="offer-banner">
+            🎉 Get 10% OFF on Orders Above ₹100
+        </div>
+
+        <button onclick="startShopping()">
+        Shop Now
+        </button>
+    </div>
+
+    </section>
+
+    <div class="filter-buttons">
+
+    <button onclick="filterProducts('All')">
+        All
+    </button>
+
+    <button onclick="filterProducts('Dairy')">
+        Dairy
+    </button>
+
+    <button onclick="filterProducts('Fruits')">
+        Fruits
+    </button>
+
+    <button onclick="filterProducts('Bakery')">
+        Bakery
+    </button>
+
+</div>
+
+    <section class="products-section" id="products">
+
+    <h2>Top Picks</h2>
+
+    <div id="products-grid" class="products-grid">
+
+    </div>
+
+
+</section>
+
+    <script src="home.js"></script>
+
+    <footer>
+        <p>© 2026 Simple Cart System </p>
+    </footer>
+
+</body>
+</html>
