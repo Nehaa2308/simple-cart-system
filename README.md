@@ -41,6 +41,7 @@ The project focuses on providing a clean and user-friendly shopping experience w
 * Responsive and clean user interface
 * Smooth navigation between Home and Cart pages
 
+---
 
 ## Technology Stack
 
@@ -49,6 +50,7 @@ The project focuses on providing a clean and user-friendly shopping experience w
 * JavaScript 
 * Local Storage API
 
+---
 
 ## Project Structure
 
@@ -64,6 +66,8 @@ SimpleCartProject/
 └── images/
 ```
 
+---
+
 ## Setup and Run Instructions
 
 1. Clone or download the repository.
@@ -78,6 +82,8 @@ SimpleCartProject/
 
 No additional installations or dependencies are required.
 
+---
+
 ## Assumptions Made During Development
 
 * Product information is maintained locally within the application.
@@ -86,11 +92,15 @@ No additional installations or dependencies are required.
 * Checkout functionality is simulated for demonstration purposes.
 * The application is intended as a frontend prototype and does not include backend integration.
 
+---
+
 ## AI-Assisted Development Note
 
 During the development of this project, I used ChatGPT as an AI-assisted development tool. It helped me with application planning, UI improvements, JavaScript logic implementation, debugging, cart management functionality, discount calculations, and documentation preparation.
 
 The use of AI assistance accelerated development while allowing me to understand, customize, and validate the generated solutions. Some challenges encountered during development included managing cart state across multiple pages, implementing quantity controls, handling Local Storage updates correctly, and ensuring accurate discount calculations. These challenges were resolved through testing, debugging, and iterative improvements.
+
+---
 
 ## Future Enhancements
 
@@ -101,6 +111,8 @@ The use of AI assistance accelerated development while allowing me to understand
 * Payment gateway integration
 * Coupon and promotional code support
 * Inventory management system
+
+---
 
 ## Author
 
