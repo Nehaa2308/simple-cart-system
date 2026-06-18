@@ -44,9 +44,9 @@ The project focuses on providing a clean and user-friendly shopping experience w
 
 ## Technology Stack
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+* HTML
+* CSS
+* JavaScript 
 * Local Storage API
 
 
