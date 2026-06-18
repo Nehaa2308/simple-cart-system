@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The Simple Cart and Discount System is a frontend web application developed as part of the Albertsons case study assignment. The application simulates a basic e-commerce shopping experience where users can browse products, search and filter items, add products to a cart, manage quantities, and view an order summary with discount calculations.
+The Simple Cart and Discount System is a frontend web application. The application simulates a basic e-commerce shopping experience where users can browse products, search and filter items, add products to a cart, manage quantities, and view an order summary with discount calculations.
 
 The project focuses on providing a clean and user-friendly shopping experience while demonstrating frontend development skills, problem-solving ability, and effective use of AI-assisted development tools.
 
