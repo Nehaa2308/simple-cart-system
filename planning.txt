@@ -6,8 +6,6 @@ Features:
 - Discount
 - Clear Cart
 - Validation
+- Summary Card
+- Display Total Amount
 
-Assumptions:
-- Discount is percentage based
-- Price > 0
-- Quantity > 0
